@@ -1,13 +1,9 @@
-import com.sun.javafx.fxml.builder.TriangleMeshBuilder;
 import javafx.geometry.Point2D;
 import javafx.scene.Parent;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
-import javafx.scene.shape.Rectangle;
-import javafx.scene.shape.TriangleMesh;
-
 import java.util.List;
 import java.util.Random;
 
@@ -31,8 +27,8 @@ public class Jewel extends Parent {
 
     public Jewel(Point2D point) {
         DropShadow dropShadow2 = new DropShadow();
-        dropShadow2.setOffsetX(3.0);
-        dropShadow2.setOffsetY(1.0);
+//        dropShadow2.setOffsetX(0.5);
+        dropShadow2.setOffsetY(0.2);
         circle.setCenterX(SIZE / 2);
         circle.setCenterY(SIZE / 2);
         circle.setEffect(dropShadow2);

@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Paint extends Application {
+public class View  {
     private static final int W = 7;
     private static final int H = 9;
     private static final int SIZE = 50;
@@ -20,14 +20,9 @@ public class Paint extends Application {
     private List<Jewel> jewels;
 
 
-//    public Paint(int width, int height, int size, List<Jewel> jewels){
-//
-//    }
 
 
-
-
-    private Parent createContent(int width, int height, int size) {
+    public Parent createContent(int width, int height, int size) {
         Pane root = new Pane();
         root.setPrefSize(width * size + 150, height * size);
 
@@ -49,15 +44,4 @@ public class Paint extends Application {
 
 
 
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(createContent(7, 9, 50)));
-        primaryStage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-//
 }
