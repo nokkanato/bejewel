@@ -107,8 +107,11 @@ public class LevelController {
                 final int Col = col;
                 tile.setOnMouseClicked((MouseEvent event) -> {
                     System.out.println(""+tile.getRow()+tile.getCol());
-//                    grid[0][0] = new Tile("green", 0, 0, GRID_WIDTH, GRID_HEIGHT);
+
                     clicked(Row, Col);
+
+                    //test clicked
+                    //           grid[0][0] = new Tile("green", 0, 0, GRID_WIDTH, GRID_HEIGHT);
 
 //                    createContent(grid);
 
@@ -306,8 +309,19 @@ public class LevelController {
                 }
             }
             //implement it hereee naa mind
-            fillBoard();
-            createContent(getGrid());
+            if ( isNeededToDestroy()){
+                ArrayList<Tile> d = getAllDestroyedTiles();
+
+                destroyJewel(d);
+                fillBoard();
+                if (isFull()) {
+                    createContent(getGrid());
+                }
+                System.out.println("error");
+
+
+            }
+
 
 
 

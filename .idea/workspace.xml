@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b4f8d4-1e26-4a66-b4f2-42023a7abe78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DestroyedSequence.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/GameController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/GameLogic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LevelController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/TestMain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/TestTile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Tile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DestroyedSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GameController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GameLogic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LevelController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TestMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TestTile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Tile.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Controller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Node.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Node.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/View.class" afterPath="$PROJECT_DIR$/target/classes/View.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/View.java" afterPath="$PROJECT_DIR$/src/main/java/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LevelController.java" afterPath="$PROJECT_DIR$/src/main/java/LevelController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,8 +100,8 @@
       <file leaf-file-name="LevelController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LevelController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="307" column="42" lean-forward="false" selection-start-line="307" selection-start-column="42" selection-end-line="307" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#printBoard#0;class#LevelController#0" expanded="false" />
@@ -139,10 +119,10 @@
                 <element signature="method#createJewel#0;class#LevelController#0" expanded="false" />
                 <element signature="method#fillBoard#0;class#LevelController#0" expanded="false" />
                 <element signature="method#isFull#0;class#LevelController#0" expanded="false" />
-                <element signature="e#11208#11209#0" expanded="true" />
-                <element signature="e#11240#11241#0" expanded="true" />
-                <element signature="e#11271#11272#0" expanded="true" />
-                <element signature="e#11299#11300#0" expanded="true" />
+                <element signature="e#11522#11523#0" expanded="true" />
+                <element signature="e#11554#11555#0" expanded="true" />
+                <element signature="e#11585#11586#0" expanded="true" />
+                <element signature="e#11613#11614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,8 +131,8 @@
       <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="-35">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -510,12 +490,12 @@
       <updated>1506870341628</updated>
       <workItem from="1506870343262" duration="3059000" />
       <workItem from="1507027123060" duration="11483000" />
-      <workItem from="1507453844094" duration="26301000" />
+      <workItem from="1507453844094" duration="26709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40843000" />
+    <option name="totallyTimeSpent" value="41251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -740,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -832,10 +804,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LevelController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="307" column="42" lean-forward="false" selection-start-line="307" selection-start-column="42" selection-end-line="307" selection-end-column="42" />
+        <state relative-caret-position="228">
+          <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#printBoard#0;class#LevelController#0" expanded="false" />
@@ -853,10 +833,10 @@
             <element signature="method#createJewel#0;class#LevelController#0" expanded="false" />
             <element signature="method#fillBoard#0;class#LevelController#0" expanded="false" />
             <element signature="method#isFull#0;class#LevelController#0" expanded="false" />
-            <element signature="e#11208#11209#0" expanded="true" />
-            <element signature="e#11240#11241#0" expanded="true" />
-            <element signature="e#11271#11272#0" expanded="true" />
-            <element signature="e#11299#11300#0" expanded="true" />
+            <element signature="e#11522#11523#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11585#11586#0" expanded="true" />
+            <element signature="e#11613#11614#0" expanded="true" />
           </folding>
         </state>
       </provider>
